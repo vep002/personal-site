@@ -1,3 +1,28 @@
 body {
-    background: pink;
+    background: rgb(237, 245, 205);
+    font-family: 'Courier New', Courier, monospace; 
+}
+.page {
+    background: rgb(237,245,205);
+    padding: 10px;
+}
+.title {
+    background: rgb(161,192,143);
+    padding: 10px;  
+    margin: 10px;
+    text-align: right; 
+}
+.about {
+    background: rgb(161,192,143);
+    padding: 10px;  
+    margin: 10px;
+}
+.projects {
+    background: rgb(161,192,143);
+    padding: 10px;  
+    margin: 10px;
+}
+#navigation li{
+    display: inline;
+    
 }
