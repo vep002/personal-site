@@ -16,13 +16,23 @@ body {
     background: rgb(161,192,143);
     padding: 10px;  
     margin: 10px;
+    height: 500px;
 }
+.image {
+    background: rgb(161,192,143);
+    padding: 10px;  
+    margin: 10px;
+    float: left; 
+    display: inline;
+}
+
 .projects {
     background: rgb(161,192,143);
     padding: 10px;  
     margin: 10px;
+    text-align: center;
 }
 #navigation li{
     display: inline;
-    
+    text-align: center;
 }
