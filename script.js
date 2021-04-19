@@ -1,5 +1,9 @@
-var weld=document.getElementsByClassName('image')
-
-weld.addEventListener('mouseover',function(event){
-    weld.style.width = '200px';
-    weld.style.height = '200px'})
+const fiber = document.getElementById('fiber');
+const other = document.getElementById('other');
+const code = document.getElementById('code');
+function popup(){
+    alert('Watch this space for future projects!')
+};
+fiber.addEventListener('click', popup);
+other.addEventListener('click', popup);
+code.addEventListener('click', popup);
