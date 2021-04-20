@@ -1,9 +1,13 @@
-const fiber = document.getElementById('fiber');
-const other = document.getElementById('other');
-const code = document.getElementById('code');
-function popup(){
+const fiber2 = document.getElementById('fiber');
+const other2 = document.getElementById('other');
+const code2 = document.getElementById('code');
+
+fiber2.addEventListener('click', function() {
     alert('Watch this space for future projects!')
-};
-fiber.addEventListener('click', popup);
-other.addEventListener('click', popup);
-code.addEventListener('click', popup);
+});
+other2.addEventListener('click', function() {
+    alert('Watch this space for future projects!')
+});
+code2.addEventListener('click', function() {
+    alert('Watch this space for future projects!')
+});
